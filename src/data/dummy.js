@@ -481,18 +481,18 @@ export const links = [
   },
 
   {
-    title: 'Pages',
+    title: 'Paginas',
     links: [
       {
-        name: 'orders',
+        name: 'pedidos',
         icon: <AiOutlineShoppingCart />,
       },
       {
-        name: 'employees',
+        name: 'colaboradores',
         icon: <IoMdContacts />,
       },
       {
-        name: 'customers',
+        name: 'clientes',
         icon: <RiContactsLine />,
       },
     ],
@@ -501,7 +501,7 @@ export const links = [
     title: 'Apps',
     links: [
       {
-        name: 'calendar',
+        name: 'calendário',
         icon: <AiOutlineCalendar />,
       },
       {
@@ -519,10 +519,10 @@ export const links = [
     ],
   },
   {
-    title: 'Charts',
+    title: 'Gráficos',
     links: [
       {
-        name: 'line',
+        name: 'linha',
         icon: <AiOutlineStock />,
       },
       {
@@ -531,27 +531,27 @@ export const links = [
       },
 
       {
-        name: 'bar',
+        name: 'barra',
         icon: <AiOutlineBarChart />,
       },
       {
-        name: 'pie',
+        name: 'torta',
         icon: <FiPieChart />,
       },
       {
-        name: 'financial',
+        name: 'financeira',
         icon: <RiStockLine />,
       },
       {
-        name: 'color-mapping',
+        name: 'mapa colorido',
         icon: <BsBarChart />,
       },
       {
-        name: 'pyramid',
+        name: 'pirâmide',
         icon: <GiLouvrePyramid />,
       },
       {
-        name: 'stacked',
+        name: 'pilha',
         icon: <AiOutlineBarChart />,
       },
     ],
