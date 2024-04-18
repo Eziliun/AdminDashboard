@@ -40,7 +40,7 @@ module.exports = {
         },
         backgroundImage: {
           'hero-pattern':
-            "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
+            "url('https://www.jondo.com/wp-content/uploads/2023/07/customer-service-jondo-1.jpg')",
         },
       },
     },
