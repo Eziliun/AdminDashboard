@@ -474,6 +474,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
+        link: 'ecommerce',
         name: 'ecommerce',
         icon: <FiShoppingBag />,
       },
@@ -484,14 +485,17 @@ export const links = [
     title: 'Paginas',
     links: [
       {
+        link: 'orders',
         name: 'pedidos',
         icon: <AiOutlineShoppingCart />,
       },
       {
+        link: 'employees',
         name: 'colaboradores',
         icon: <IoMdContacts />,
       },
       {
+        link: 'costumers',
         name: 'clientes',
         icon: <RiContactsLine />,
       },
@@ -501,18 +505,22 @@ export const links = [
     title: 'Apps',
     links: [
       {
+        link: 'calendar',
         name: 'calendário',
         icon: <AiOutlineCalendar />,
       },
       {
+        link: 'kanban',
         name: 'kanban',
         icon: <BsKanban />,
       },
       {
+        link: 'editor',
         name: 'editor',
         icon: <FiEdit />,
       },
       {
+        link: 'color-picker',
         name: 'color-picker',
         icon: <BiColorFill />,
       },
@@ -522,35 +530,43 @@ export const links = [
     title: 'Gráficos',
     links: [
       {
+        link: 'line',
         name: 'linha',
         icon: <AiOutlineStock />,
       },
       {
+        link: 'area',
         name: 'area',
         icon: <AiOutlineAreaChart />,
       },
 
       {
+        link: 'bar',
         name: 'barra',
         icon: <AiOutlineBarChart />,
       },
       {
+        link: 'pie',
         name: 'torta',
         icon: <FiPieChart />,
       },
       {
+        link: 'financial',
         name: 'financeira',
         icon: <RiStockLine />,
       },
       {
-        name: 'mapa colorido',
+        link: 'color-mapping',
+        name: 'mapa area',
         icon: <BsBarChart />,
       },
       {
+        link: 'pyramid',
         name: 'pirâmide',
         icon: <GiLouvrePyramid />,
       },
       {
+        link: 'stacked',
         name: 'pilha',
         icon: <AiOutlineBarChart />,
       },
@@ -872,26 +888,26 @@ export const userProfileData = [
 
 export const ordersGrid = [
   {
-    headerText: 'Image',
+    headerText: 'Imagem',
     template: gridOrderImage,
     textAlign: 'Center',
     width: '120',
   },
   {
     field: 'OrderItems',
-    headerText: 'Item',
+    headerText: 'Produtos',
     width: '150',
     editType: 'dropdownedit',
     textAlign: 'Center',
   },
   { field: 'CustomerName',
-    headerText: 'Customer Name',
+    headerText: 'Cliente',
     width: '150',
     textAlign: 'Center',
   },
   {
     field: 'TotalAmount',
-    headerText: 'Total Amount',
+    headerText: 'Total',
     format: 'C2',
     textAlign: 'Center',
     editType: 'numericedit',
@@ -906,14 +922,14 @@ export const ordersGrid = [
   },
   {
     field: 'OrderID',
-    headerText: 'Order ID',
+    headerText: 'Pedido ID',
     width: '120',
     textAlign: 'Center',
   },
 
   {
     field: 'Location',
-    headerText: 'Location',
+    headerText: 'Localização',
     width: '150',
     textAlign: 'Center',
   },
