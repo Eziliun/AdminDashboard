@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 import { BsCheck } from 'react-icons/bs';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
@@ -7,6 +7,8 @@ import { themeColors } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const ThemeSettings = () => {
+  const { setColorm, setMode, currentMode, currentColor, setThemeSettings } = useStateContext();
+
   return (
     <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
       <div className="float-right h-screen dark:text-gray-200  bg-white dark:bg-[#484B52] w-400">
@@ -14,7 +16,7 @@ const ThemeSettings = () => {
           <p className='font-semibold text-xl'>Settings</p>
           <button
             type='button'
-            onClick={() => {}}
+            onClick={() => setThemeSettings(false)}
             style={{ color:'rgb(153,171, 180)', borderRadius: '50%' }}
             className='text-2xl p-3 hover:drop-shadow-xl hover:bg-light-gray'
           >
