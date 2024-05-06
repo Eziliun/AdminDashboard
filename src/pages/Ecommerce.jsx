@@ -98,7 +98,6 @@ const Ecommerce = () => {
               </div>
               <div className="mt-8">
                 <p className="text-3xl font-semibold">$48,487</p>
-
                 <p className="text-gray-500 mt-1">Gastos</p>
               </div>
 
@@ -109,7 +108,7 @@ const Ecommerce = () => {
                 <Button
                   color="white"
                   bgColor={currentColor}
-                  text="Download Report"
+                  text="Download Relatório"
                   borderRadius="10px"
                 />
               </div>
@@ -241,7 +240,7 @@ const Ecommerce = () => {
         </div>
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">MedicalPro Marketing</p>
+            <p className="text-xl font-semibold">MedicalPro Market</p>
             <button type="button" className="text-xl font-semibold text-gray-400">
               <IoIosMore />
             </button>
@@ -308,17 +307,16 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">React 18 chegando!</p>
+              <p className="text-gray-400 ">By Fulano</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+                Descrição Geral
               </p>
               <div className="mt-3">
                 <Button
                   color="white"
                   bgColor={currentColor}
-                  text="Read More"
+                  text="Saiba Mais"
                   borderRadius="10px"
                 />
               </div>
